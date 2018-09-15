@@ -1,0 +1,25 @@
+/* 色彩恬淡 细表格 隔行分色*/
+
+table {
+	width: 100%;
+	font-size: 12px;
+
+	table-layout: fixed;
+	empty-cells: show;
+	border-collapse: collapse;
+
+	margin: 0 auto;
+	border: 1px solid #cad9ea;
+	color: #666;
+} 
+th,td {
+	border: 1px solid #cad9ea;  /*浅色线分隔行列*/
+	padding: 0 1em 0;
+
+}
+td {
+	height: 20px;
+}
+tr:nth-child(even) {           /*偶行定义背景色*/
+	background-color: #f5fafe;
+}
